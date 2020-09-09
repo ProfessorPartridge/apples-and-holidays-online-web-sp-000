@@ -63,7 +63,6 @@ def add_new_holiday_with_supplies(hash, season, holiday_name, supply_array)
 end
 test_array = ['test_1', 'test_2', 'test_3']
 add_new_holiday_with_supplies(holiday_hash, 'test_season', 'test_holiday_name', test_array)
-binding.pry
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
