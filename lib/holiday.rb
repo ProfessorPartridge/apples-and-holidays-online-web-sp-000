@@ -61,7 +61,6 @@ def add_new_holiday_with_supplies(hash, season, holiday_name, supply_array)
   hash[season][holiday_name] = supply_array
   hash
 end
-test_array = ['test_1', 'test_2', 'test_3']
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
