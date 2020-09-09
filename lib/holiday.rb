@@ -58,8 +58,8 @@ add_supply_to_memorial_day(holiday_hash, 'Test')
 def add_new_holiday_with_supplies(hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  holiday_hash[season][holiday_name] = supply_array
-  holiday_hash
+  hash[season][holiday_name] = supply_array
+  hash
 end
 add_new_holiday_with_supplies(holiday_hash, 'test_season', 'test_holiday_name', ['test_1', 'test_2', 'test_3'])
 binding.pry
